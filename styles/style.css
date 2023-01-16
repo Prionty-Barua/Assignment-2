@@ -1,0 +1,275 @@
+:root {
+    --lightpink: #ff900e1a;
+    --orange: #FF900E;
+    --color: #3A3A3A;
+    --gray: #727272;
+    --primary-font: 'STIX Two Text', serif;
+}
+
+.btn {
+    background-color: var(--orange);
+    color: white;
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.btn-primary {
+    background-color: var(--orange);
+    color: white;
+    height: 120px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 300px;
+    align-items: flex-end;
+    justify-content: end;
+    top: 1200px;
+    margin: 30px;
+}
+
+body {
+    font-family: var(--primary-font);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/* nav */
+.container {
+    max-width: 1110px;
+    height: 950px;
+    padding: 0 120px;
+    background: var(--lightpink);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+div>ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.intro {
+    font-size: 30px;
+    width: 302px;
+    height: 53px;
+    left: 228px;
+}
+
+.menu {
+    font-size: 18px;
+}
+/* nav banner */
+.banner {
+    position: absolute;
+    text-align: center;
+    max-width: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__text {
+    color: var(--color);
+    font-size: 16px;
+    width: 868px;
+    height: 52px;
+    padding-left: 126px;
+}
+
+.card__title>h1 {
+    padding-left: 330px;
+    width: 20%;
+    color: black;
+}
+
+.banner-img {
+    position: absolute;
+    width: 100%;
+    max-width: 1000px;
+    height: 430px;
+    top: 250px;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* First row */
+.first-row {
+    box-sizing: content-box;
+    border: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 822px;
+    top: 1562px;
+    padding-left: 110px;
+}
+
+.team {
+    box-sizing: border-box;
+}
+
+.grid {
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.team-intro {
+    font-weight: 600;
+    font-size: 35px;
+    width: 400px;
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.bold {
+    color: #131313;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.sponsors {
+    align-items: center;
+    padding: 120px;
+    gap: 130px;
+}
+
+.team-details {
+    box-sizing: border-box;
+    width: 300px;
+    height: 120px;
+    left: 50px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* second row */
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+    gap: 25px;
+}
+
+.info {
+    padding-left: 80px;
+}
+
+.woman {
+    padding-right: 100px;
+}
+
+.gray-details {
+    color: var(--gray);
+    font-size: 16px;
+}
+
+/* third row */
+.third-row {
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.prize {
+    padding-left: 130px;
+}
+
+.facts {
+    font-weight: 300px;
+}
+
+.about{
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 80px;
+    height: 190px;
+    padding-left:300px;
+}
+.skill {
+    border: 1px solid #FF900E;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+/* fourth row */
+.fourth-row {
+    text-align: center;
+    width: 100%;
+}
+.prize {
+    padding-left: 130px;
+}
+.facts {
+    font-weight: 300px;
+}
+.sponsors{
+    justify-content: space-between;
+}
+/* footer */
+footer {
+    border-style: ridge;
+    background-color: var(--lightpink);
+    color: #3A3A3A;
+    margin-left: 350px;
+    Width: 620px;
+    text-align: center;
+}
+@media screen and (min-width: 576px) and (max-width:577px) {
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        height: 950px;
+        padding: 0 120px;
+        background: var(--lightpink);
+    }
+    .navbar {
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .first-row {
+        box-sizing: content-box;
+        border: 100px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1920px;
+        height: 822px;
+        top: 1362px;
+    }
+
+    footer {
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
